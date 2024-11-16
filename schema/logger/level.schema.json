@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "level.schema.json",
+    "title": "Level",
+    "description": "Log Level",
+    "type": "string",
+    "enum": [
+      "trace",
+      "debug",
+      "info",
+      "warn",
+      "error",
+      "fatal",
+      "panic"
+    ]
+  }
+  

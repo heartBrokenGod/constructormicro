@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "type.schema.json",
+    "title": "Type",
+    "description": "Type of service",
+    "type": "string",
+    "enum": [
+      "ui",
+      "public",
+      "internal"
+    ]
+  }
+  

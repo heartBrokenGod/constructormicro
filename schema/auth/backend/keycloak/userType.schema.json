@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "userType.schema.json",
+    "title": "UserType",
+    "description": "Type of Keycloak User",
+    "type": "string",
+    "enum": [
+      "service",
+      "user",
+      "default"
+    ]
+  }

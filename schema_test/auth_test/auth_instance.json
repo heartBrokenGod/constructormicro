@@ -1,0 +1,9 @@
+{
+    "backend":{
+        "keycloak": {
+            "userType": "service",
+            "userId": "testService",
+            "userToken": "testToken"
+        }
+    }
+}

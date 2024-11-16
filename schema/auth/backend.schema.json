@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "backend.schema.json",
+    "title": "Auth Backend",
+    "description": "Backend for Auth",
+    "type": "object",
+    "properties": {
+        "keycloak": {
+            "$ref": "backend/keycloak/keycloak.schema.json"
+        }
+    },
+    "oneOf": [
+        { "required": [ "keycloak" ] }
+    ]
+}

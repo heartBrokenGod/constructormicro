@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "logger.schema.json",
+    "title": "Logger",
+    "description": "Logger Implementation",
+    "type": "object",
+    "properties": {
+        "type": {
+            "$ref": "type.schema.json"
+        },
+        "level": {
+            "$ref": "level.schema.json",
+            "description": "default log level"
+        }
+    },
+    "required": [
+        "type",
+        "level"
+    ]
+}

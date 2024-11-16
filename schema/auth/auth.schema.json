@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "auth.schema.json",
+    "title": "Auth",
+    "description": "Auth Connector",
+    "type": "object",
+    "properties": {
+        "backend": {
+            "$ref": "backend.schema.json"
+        }
+    },
+    "required": [
+        "backend"
+    ]
+}

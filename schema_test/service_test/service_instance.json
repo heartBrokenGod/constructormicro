@@ -1,0 +1,7 @@
+{
+    "type": "public",
+    "logger": {
+        "type":"logrus",
+        "level": "warn"
+    }
+}

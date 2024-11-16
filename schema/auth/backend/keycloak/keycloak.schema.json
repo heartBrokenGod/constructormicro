@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "keycloak.schema.json",
+    "title": "Keycloak",
+    "description": "Auth Connector Keycloak Backend",
+    "type": "object",
+    "properties": {
+        "userType": {
+            "$ref": "userType.schema.json"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "userToken": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "userType",
+        "userId",
+        "userToken"
+    ]
+}

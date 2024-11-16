@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "service.schema.json",
+    "title": "Service",
+    "description": "Service",
+    "type": "object",
+    "properties": {
+        "type": {
+            "$ref": "type.schema.json"
+        },
+        "logger": {
+            "$ref": "../logger/logger.schema.json"
+        }
+    },
+    "required": [
+        "type",
+        "logger"
+    ]
+}
