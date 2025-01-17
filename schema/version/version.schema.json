@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "version.schema.json",
+    "title": "Version",
+    "description": "Version",
+    "type": "object",
+    "properties": {
+        "semantic": {
+            "$ref": "semantic/semantic.schema.json"
+        }
+    },
+    "oneOf": [
+        { "required": [ "semantic" ] }
+    ]
+}

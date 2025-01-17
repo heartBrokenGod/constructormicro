@@ -1,15 +1,21 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "service.schema.json",
-    "title": "Service",
-    "description": "Service",
+    "$id": "server.schema.json",
+    "title": "Server",
+    "description": "Server",
     "type": "object",
     "properties": {
         "version": {
             "$ref": "../version/version.schema.json"
         },
-        "type": {
+        "protocol": {
             "$ref": "type.schema.json"
+        },
+        "port": {
+            "type": "integer"
+        },
+        "gracefulShutdownTimeout":{
+            "type": ""
         },
         "logger": {
             "$ref": "../logger/logger.schema.json"

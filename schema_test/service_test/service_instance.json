@@ -1,7 +1,14 @@
 {
     "type": "public",
+    "version": {
+        "semantic": {
+            "majorVersion": 1,
+            "minorVersion": 0,
+            "patchVersion": 0
+        }
+    },
     "logger": {
-        "type":"logrus",
+        "type": "logrus",
         "level": "warn"
     }
 }

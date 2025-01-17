@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "service.schema.json",
-    "title": "Service",
-    "description": "Service",
+    "$id": "internal.schema.json",
+    "title": "Internal",
+    "description": "Internal Service",
     "type": "object",
     "properties": {
         "version": {

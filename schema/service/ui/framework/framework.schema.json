@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "framework.schema.json",
+    "title": "Framework",
+    "description": "Framework for UI",
+    "type": "object",
+    "properties": {
+        "react": {
+            "$ref": "../version/version.schema.json"
+        },
+        "flutter": {
+            "$ref": "type.schema.json"
+        }
+    },
+    "oneOf": [
+        { "required": [ "react" ] },
+        { "required": [ "flutter" ] }
+    ]
+}

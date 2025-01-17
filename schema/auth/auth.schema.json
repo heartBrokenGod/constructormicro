@@ -7,6 +7,10 @@
     "properties": {
         "backend": {
             "$ref": "backend.schema.json"
+        },
+        "testk":{
+            "type":"string",
+            "pattern": "^(?=\\d+[ywdhms])(( ?\\d+y)?(?!\\d))?(( ?\\d+w)?(?!\\d))?(( ?\\d+d)?(?!\\d))?(( ?\\d+h)?(?!\\d))?(( ?\\d+m)?(?!\\d))?(( ?\\d+s)?(?!\\d))?( ?\\d+ms)?$"
         }
     },
     "required": [

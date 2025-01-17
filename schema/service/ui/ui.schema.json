@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "ui.schema.json",
+    "title": "Ui",
+    "description": "Ui Service",
+    "type": "object",
+    "properties": {
+        "framework": {
+            "$ref": "framework.schema.json"
+        }
+    },
+    "required": [
+        "framework"
+    ]
+}
